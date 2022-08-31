@@ -1,0 +1,95 @@
+    1  ls
+    2  pwd
+    3  ls
+    4  pwd
+    5  groups /home/alzubeid-F22
+    6  groups alzubeid-F22
+    7  ls
+    8  exit
+    9  ssh alzubeid-F22@trgn.bioinform.io
+   10  psswrd
+   11  passwrd
+   12  ls
+   13  pwd
+   14  ls
+   15  ssh alzubeid-F22@trgn.usc.edu
+   16  passwd
+   17  mkdir bin scripts projects
+   18  ls
+   19  mkdir assignments
+   20  ls
+   21  cd assignments
+   22  ls
+   23  lear
+   24  clear
+   25  ls
+   26  ccd assignments
+   27  cd assignments
+   28  git clone https://github.com/alzubeid/trgn510_assignment1.git
+   29  cd trgn510_assignment1
+   30  ls
+   31  vim Readme.md
+   32  git add . -A
+   33  git commit -m "First commit"
+   34  git init
+   35  git config alzubeid
+   36  git config alzubeid-F22
+   37  git config --global alzubeid@usc.edu
+   38  git config --global alzubeid-F22@usc.edu
+   39  git config --global alzubeid-F22
+   40  git config alzubeid-F22
+   41  git config alzubeid
+   42  ls
+   43   cat READMe.md
+   44  cd ReadMe.md
+   45  vim Readme.md
+   46  ls
+   47  cd assignments
+   48  ls
+   49  ls ./
+   50  ls trgn510_assignment1
+   51  vim Readme.md
+   52  rm - r README.md
+   53  rm -r README.md
+   54  cd trgn510_assignment1
+   55  ls
+   56  rm -README.md
+   57  git add . -A
+   58  git commit -m "First commit"
+   59  git config alzubeid-F22@usc.edu
+   60  git config --global alzubeid-F22@trgn.usc.edu
+   61  git init
+   62  git config user.name "alzubeid"
+   63  git config user.email "alzubeid@usc.edu"
+   64  git add *
+   65  git commit -m "First commit"
+   66  git push
+   67  pwd
+   68  ls
+   69  mkdir problem1
+   70  history
+   71  ls
+   72  cd problem1
+   73  history > myhistory.problem1.txt
+   74  ls
+   75  cat
+   76  ls
+   77  cd assignments
+   78  ls
+   79  cd trgn510_assignment1
+   80  ls
+   81  cd problem1
+   82  ls
+   83  rm -rf myhistory.problem1.txt
+   84  ls
+   85  cd problem1
+   86  pwd
+   87  ls
+   88  history
+   89  history . myhistory.txt
+   90  history
+   91  cd problem 1
+   92  pwd
+   93  ls
+   94  history
+   95  history > myhistory.txt
