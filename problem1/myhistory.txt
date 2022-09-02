@@ -1,95 +1,302 @@
     1  ls
-    2  pwd
+    2  cd problem2
     3  ls
-    4  pwd
-    5  groups /home/alzubeid-F22
-    6  groups alzubeid-F22
-    7  ls
-    8  exit
-    9  ssh alzubeid-F22@trgn.bioinform.io
-   10  psswrd
-   11  passwrd
+    4  source ~/assignments/trgn_assignment1/problem2/bashr
+    5  source ~/assignments/trgn_assignment1/problem2/bashrc
+    6  cp ~/assignments/trgn_assignment1/problem2/bashrc ~/.bashrc
+    7   cp cp ~/assignments/trgn_assignment1/problem2/bashrc_sample ~/.bashrc
+    8  cp ~/assignments/trgn_assignment1/problem2/bashrc ~/.bashrc
+    9  cp vimrc ~/.vimrc
+   10  ls
+   11  cd /home/data/
    12  ls
-   13  pwd
-   14  ls
-   15  ssh alzubeid-F22@trgn.usc.edu
-   16  passwd
-   17  mkdir bin scripts projects
-   18  ls
-   19  mkdir assignments
-   20  ls
-   21  cd assignments
-   22  ls
-   23  lear
-   24  clear
+   13  vi vimrc 
+   14  cp vimrc ~/assignments/trgn_assignment1/problem2/
+   15  cd ~/assignments/trgn_assignment1/problem2/
+   16  ls
+   17  vi vimrc 
+   18  cp vimrc ~/.vimrc
+   19  vi vimrc 
+   20  cd
+   21  ls
+   22  ls -a
+   23  ls -la
+   24  ls -lha
    25  ls
-   26  ccd assignments
-   27  cd assignments
-   28  git clone https://github.com/alzubeid/trgn510_assignment1.git
-   29  cd trgn510_assignment1
-   30  ls
-   31  vim Readme.md
-   32  git add . -A
-   33  git commit -m "First commit"
-   34  git init
-   35  git config alzubeid
-   36  git config alzubeid-F22
-   37  git config --global alzubeid@usc.edu
-   38  git config --global alzubeid-F22@usc.edu
-   39  git config --global alzubeid-F22
-   40  git config alzubeid-F22
-   41  git config alzubeid
-   42  ls
-   43   cat READMe.md
-   44  cd ReadMe.md
-   45  vim Readme.md
-   46  ls
-   47  cd assignments
-   48  ls
-   49  ls ./
-   50  ls trgn510_assignment1
-   51  vim Readme.md
-   52  rm - r README.md
-   53  rm -r README.md
-   54  cd trgn510_assignment1
-   55  ls
-   56  rm -README.md
-   57  git add . -A
-   58  git commit -m "First commit"
-   59  git config alzubeid-F22@usc.edu
-   60  git config --global alzubeid-F22@trgn.usc.edu
-   61  git init
-   62  git config user.name "alzubeid"
-   63  git config user.email "alzubeid@usc.edu"
-   64  git add *
-   65  git commit -m "First commit"
-   66  git push
-   67  pwd
-   68  ls
-   69  mkdir problem1
-   70  history
-   71  ls
-   72  cd problem1
-   73  history > myhistory.problem1.txt
+   26  ~/assignments/trgn_assignment1/problem 3/
+   27  ls
+   28  cd assignments
+   29  ls
+   30  cd trgn_assignment4
+   31  cd ..
+   32  ls
+   33  cd trgn_assignment1/
+   34  ls
+   35  cd problem4
+   36  ls
+   37  head myprocesses.txt
+   38  vi header.txt 
+   39  head header.txt 
+   40  head myprocesses.txt
+   41  vi myprocesses.header.txt
+   42  cd ../problem5
+   43  ls
+   44  wc -l gencode.v29.basic.annotation.gtf 
+   45  grep " gene " gencode.v29.basic.annotation.gtf &amp;amp;gt; genes.tmp.txt
+   46  grep " gene " gencode.v29.basic.annotation.gtf >  genes.tmp.txt
+   47  ls
+   48  vi genes.tmp.txt 
+   49  ls -lhtr
+   50  grep " gene" gencode.v29.basic.annotation.gtf &amp;amp;gt; genes.tmp.txt
+   51  ls-l
+   52  ls
+   53  cd assignments
+   54  ls
+   55  cd trgn_assignment1
+   56  ls
+   57  cd problem5
+   58  ls
+   59  grep " gene " gencode.v29.basic.annotation.gtf &amp;amp;gt; > genes.tmp.txt
+   60  grep " gene " gencode.v29.basic.annotation.gtf &amp;amp;gt; -o  genes.tmp.txt
+   61  man grep
+   62  ls
+   63  grep " gene " gencode.v29.basic.annotation.gtf > genes.tmp.txt
+   64  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+   65  head genes.final.txt
+   66  head genes.tmp2.txt
+   67  ls
+   68  vi gens.tmp.txt
+   69  vi genes.tmp.txt
+   70  hostname
+   71  pqd
+   72  pwd
+   73  cd problem5
    74  ls
-   75  cat
+   75  rm -f genes.tmp.txt
    76  ls
-   77  cd assignments
-   78  ls
-   79  cd trgn510_assignment1
+   77  grep " gene " gencode.v29.basic.annotation.gtf >  genes.tmp.txt
+   78  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+   79  head genes.tmp2.txt
    80  ls
-   81  cd problem1
-   82  ls
-   83  rm -rf myhistory.problem1.txt
-   84  ls
-   85  cd problem1
-   86  pwd
-   87  ls
-   88  history
-   89  history . myhistory.txt
-   90  history
-   91  cd problem 1
-   92  pwd
+   81  rm -genes.tmp.txt
+   82  rm -f genes.tmp.txt
+   83  vi genes.tmp2.txt
+   84  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+   85  ls
+   86  grep -oP 'gene_name "(.*?)"' gens.tmp.txt > genes.tmp2.txt
+   87  head genes.tmp2.txt 
+   88  ls
+   89  rm -gens.tmp.txt
+   90  rm -f gens.tmp.txt
+   91  ls
+   92  head genes.tmp2.txt
    93  ls
-   94  history
-   95  history > myhistory.txt
+   94  lsls
+   95  ls
+   96  cd assignments
+   97  ls
+   98  cd trgn_assignment1
+   99  ls
+  100  cd problem5
+  101  ls
+  102  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  103  ls
+  104  rm -f genes.tmp2.txt
+  105  ls
+  106  grep " gene " gencode.v29.basic.annotation.gtf > genes.tmp.txt
+  107  ls
+  108  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  109  head genes.tmp2.txt 
+  110  -oP 'gene_name "(.*?)"' genes.tmp.txt > head genes.tmp2.txt
+  111  op
+  112  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > head genes.tmp2.txt
+  113  ls
+  114  rm -f head
+  115  ls
+  116  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > head genes.tmp2.txt
+  117  touch genes.tmp2.txt
+  118  ls
+  119  rm -f head
+  120  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > head genes.tmp2.txt
+  121  head genes.tmp2.txt
+  122  vi genes.tmp2.txt
+  123  ls-l
+  124  ls
+  125  rm -f head
+  126  vim genes.tmp2.txt
+  127  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  128  head genes.tmp2.txt
+  129  ls
+  130  chmod 755 genes.tmp2.txt
+  131  vi genes.tmp2.txt
+  132  ls
+  133  cd assignments
+  134  ls
+  135  cd trgn_assignment1
+  136  ls
+  137  cd problem5
+  138  ls
+  139  head genes.tmp2.txt
+  140  last | more
+  141  last | head
+  142  cd assignments/
+  143  ls
+  144  cd ls -lsa
+  145  cd trgn_assignment1/
+  146  ls
+  147  cd problem5/
+  148  ls
+  149  cat genes.tmp2.txt 
+  150  history
+  151  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  152  head genes.tmp.txt 
+  153  grep " gene " gencode.v29.basic.annotation.gtf 
+  154  grep "	gene	" gencode.v29.basic.annotation.gtf 
+  155  ls -l
+  156  history
+  157  ls
+  158  cd assignments
+  159  ls
+  160  cd trgn_assignment1
+  161  ls
+  162  cd problem5
+  163  ls
+  164  rm -f genes.tmp.txt
+  165  rm -f genes.tmp2.txt
+  166  ls
+  167  grep "	gene	" genecode.v29.basic.annotation.gtf > genes.tmp.txt
+  168  grep "	gene	" gencode.v29.basic.annotation.gtf &gt; genes.tmp.txt
+  169  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  170  head genes.tmp2.txt
+  171  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  172  head genes.tmp2.txt
+  173  ls
+  174  vi genes.tmp2.txt
+  175  head genes.tmp.txt
+  176  rm -f genes.tmp.txt
+  177  ls
+  178  head genes.tmp2.txt
+  179  vi genes.tmp2.txt
+  180  grep "	gene	" gencode.v29.basic.annotation.gtf 
+  181  grep "	gene	"gencode.v29.basic.annotation.gtf | wc -l
+  182  ls
+  183  cd assignements
+  184  cd assignments
+  185  ls
+  186  cd trgn_assignment1
+  187  ls
+  188  cd problem5
+  189  ls
+  190  head genes.tmp2.txt
+  191  rm -f genes.tmp2.txt
+  192  ls
+  193  grep "	gene	" gencode.v29.basic.annotation.gtf | wc -l
+  194  grep "	gene	" gencode.v29.basic.annotation.gtf > genes.tmp.txt
+  195  head genes.tmp.txt
+  196  grep -oP 'gen_name	"(.*?)"' genes.tmp.txt
+  197  grep -oP 'gene_name	"(.*?)"' genes.tmp.txt > genes.tmp2.txt	
+  198  head genes.tmp2.txt
+  199  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  200  head genes.tmp2.txt
+  201  vim genes.tmp2.txt
+  202  hostname
+  203  man cut
+  204  vim genes.tmp2.txt
+  205  ls
+  206  cn assignements
+  207  cd assignments
+  208  ls
+  209  cd trgn_assignement1
+  210  cd trgn_assignment1
+  211  ls
+  212  cd problem5
+  213  ls
+  214  head genes.tmp2.txt
+  215  cut -f1 genes.tmp2.txt | head
+  216  head genes.tmp2.txt
+  217  cut -f1 genes.tmp2.txt | head
+  218  %s 's/"/ /g' genes.tmp2.txt | head
+  219  sed 's/"/ /g' genes.tmp2.txt | head
+  220  sed 's/gene_name//g' genes.tmp2.txt | head
+  221  sed 's/"/ /g' genes.tmp2.txt | head
+  222  cut -f2 genes.tmp2.txt | head
+  223  awk '{print $2}' genes.tmp2.txt | head
+  224  sed 's/"/ /g' genes.tmp2.txt | head
+  225  awk '{print $2}' genes.tmp2.txt | head | sed 's/"/ /g'
+  226  awk '{print $2}' genes.tmp2.txt | sed 's/"/ /g' > genes.final.txt 
+  227  head genes.final.txt
+  228  cd ..
+  229  ls
+  230  cd problem2
+  231  ls
+  232  cd bashrc
+  233  cd vimrc
+  234  vim vimrc
+  235  cd problem 2
+  236  cd problem2
+  237  ls
+  238  pwd
+  239  cp /scratch/data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+  240  cd ..
+  241  ls
+  242  cd problem 3
+  243  cd problem/3
+  244  cd problem	3
+  245  cd problem3
+  246  cd problem\3
+  247  cd problem/ 3
+  248  cd problem\ 3
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd problem4
+  253  ls
+  254  head myprocesses.header.txt
+  255  cd ..
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd trgn510_assignment1
+  260  ls
+  261  rm -r problem1
+  262  rm -r problem2
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd trgn_assignment1
+  267  ls
+  268  vi ~/assignments/trgn_assignment1/.gitignore
+  269  git add . -A
+  270  git init
+  271  git commit -m "submitting"
+  272   git config --global user.email "you@example.com"
+  273   git config --global user.email "alzubeid@usc.edu"
+  274  git config --global user.name "alzubeid"
+  275  git add . -A
+  276  git commit -m "Submitting"
+  277  git push
+  278  ls
+  279  cd assignments
+  280  ls
+  281  cd trgn510_assignment1
+  282  ls
+  283  mkdir problem1
+  284  ls
+  285  cd problem1
+  286  history
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd problem1
+  291  history > myhistory.problem1.txt
+  292  head problem1
+  293  cd ..
+  294  ls
+  295  cd problem1
+  296  ls
+  297  rm -f myhistory.problem1.txt
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd problem1
+  302  history > myhistory.txt
